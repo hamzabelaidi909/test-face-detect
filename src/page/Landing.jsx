@@ -40,7 +40,7 @@ function App() {
       <p>Face tracking & sound alerts to keep you at your desk</p>
       <div onClick={()=>setOpen(true)} style={{border:"2px solid #ffffffff",zIndex:9,padding:"5px",borderRadius:"10px",marginTop:"10px"}} className="cursor-target">Start</div>
       <p></p>
-      <div onclick="" style={{color:"#a1a1a1ff",border:"2px solid #a1a1a1ff",zIndex:9,padding:"5px",borderRadius:"10px",marginTop:"10px"}}  className="cursor-target">gitHub Source</div>
+      <div onClick={() => window.open('https://github.com/hamzabelaidi909/test-face-detect', '_blank')} style={{color:"#a1a1a1ff",border:"2px solid #a1a1a1ff",zIndex:9,padding:"5px",borderRadius:"10px",marginTop:"10px"}}  className="cursor-target">gitHub Source</div>
       <div onClick={() => window.open('https://www.linkedin.com/in/belaidi-hamza/', '_blank')} style={{color:"#a1a1a1ff",border:"2px solid #a1a1a1ff",zIndex:9,padding:"5px",borderRadius:"10px",marginTop:"10px"}}  className="cursor-target">My linkedin</div>
     {open?<div className='leaves' onClick={()=>setOpen(false)}>
             <div className='carte'onClick={(e)=> e.stopPropagation()} >
