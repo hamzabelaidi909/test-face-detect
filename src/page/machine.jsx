@@ -33,7 +33,7 @@ function App() {
 </div>
 
       <Detect finish={finish} playSound={playSound} setPlaySound={setPlaySound} />
-      <div style={{display: "flex",    marginLeft: "auto",
+      <div style={{display: "flex", zIndex:9999,marginLeft: "auto",
     marginRight: "auto",
     justifyContent: "center", 
     alignItems: "center", marginTop:"10px",width: 640}}>
