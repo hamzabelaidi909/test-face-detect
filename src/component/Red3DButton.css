@@ -1,0 +1,23 @@
+.red3d {
+  background-color: #e74c3c; /* red */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 5px #c0392b, 0 10px #bd3b2e; /* 3D depth */
+  transition: all 0.2s ease;
+  z-index: 9999;
+}
+
+.red3d:hover {
+  transform: translateY(-2px); /* hover lift effect */
+  box-shadow: 0 7px #c0392b, 0 12px #bd3b2e;
+}
+
+.red3d:active {
+  transform: translateY(4px); /* pressed down */
+  box-shadow: 0 1px #c0392b, 0 2px #bd3b2e;
+}
